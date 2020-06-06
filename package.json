@@ -1,0 +1,26 @@
+{
+  "name": "mark-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config  webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^3.5.3",
+    "del": "^5.1.0",
+    "empty-webpack-plugin": "^1.0.2",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "loader-utils": "^2.0.0",
+    "markdown-it": "^11.0.0",
+    "schema-utils": "^2.7.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
